@@ -5,6 +5,13 @@ import {BrowserRouter as Router,Switch,Route,Routes, Navigate} from 'react-route
 function App() {
   return (
     <div className="App">
+      <Router>
+      <Routes>
+        <Route path={<Propscomp />} />
+          
+        
+      </Routes>
+      </Router>
       
     </div>
   );
